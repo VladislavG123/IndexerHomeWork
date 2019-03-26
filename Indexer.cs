@@ -18,7 +18,7 @@ namespace IndexerHomeWork
         public int this[int index]
         {
             get { return _data[index]; }
-            set { _data[index] = value * 2; }
+            set { _data[index] = value * value; }
         }
     }
 }
