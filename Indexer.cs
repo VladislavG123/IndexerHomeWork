@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IndexerHomeWork
 {
-    class Indexer
+    public class Indexer
     {
         int _size;
         int[] _data;
