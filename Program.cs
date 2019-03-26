@@ -10,6 +10,11 @@ namespace IndexerHomeWork
     {
         static void Main(string[] args)
         {
+            Indexer indexer = new Indexer(10);
+
+            indexer[1] = 2;
+            Console.WriteLine(indexer[1]);
+            Console.Read();
         }
     }
 }
